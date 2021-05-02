@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrain_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/_49758_santiago_bernabeu_wallpapers_2800x1856_for_desktop">
+
+    <TextView
+        android:id="@+id/title_teama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/team_a_margin_start"
+        android:layout_marginLeft="@dimen/team_a_margin_left"
+        android:layout_marginTop="@dimen/team_a_margin_top"
+        android:text="@string/team_a"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title_teamb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/team_b_margin_end"
+        android:layout_marginRight="@dimen/team_b_margin_right"
+        android:text="@string/team_b"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/title_teama"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/score_teama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/score_a_margin_start"
+        android:layout_marginLeft="@dimen/score_a_margin_left"
+        android:layout_marginTop="@dimen/score_a_margin_top"
+        android:text="@string/initial_score_a"
+        android:textColor="@color/white"
+        android:textSize="120sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_teama" />
+
+    <TextView
+        android:id="@+id/score_teamb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/score_b_margin_end"
+        android:layout_marginRight="@dimen/score_b_margin_right"
+        android:text="@string/initial_score_b"
+        android:textColor="@color/white"
+        android:textSize="120sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/score_teama"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/goal_teamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/goal_a_margin_start"
+        android:layout_marginLeft="@dimen/goal_a_margin_left"
+        android:layout_marginTop="@dimen/goal_a_margin_top"
+        android:text="@string/goal_a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score_teama" />
+
+    <Button
+        android:id="@+id/goal_teamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/goal_b_margin_end"
+        android:layout_marginRight="@dimen/goal_b_margin_right"
+        android:text="@string/goal_b"
+        app:layout_constraintBaseline_toBaselineOf="@+id/goal_teamA"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/gameover_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/gameover_margin_bottom"
+        android:text="@string/game_over"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goal_teamA"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

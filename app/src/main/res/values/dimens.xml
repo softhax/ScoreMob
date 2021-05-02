@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="team_a_margin_start">64dp</dimen>
+    <dimen name="team_a_margin_left">64dp</dimen>
+    <dimen name="team_a_margin_top">44dp</dimen>
+    <dimen name="team_b_margin_end">56dp</dimen>
+    <dimen name="team_b_margin_right">56dp</dimen>
+
+    <dimen name="score_a_margin_start">64dp</dimen>
+    <dimen name="score_a_margin_left">64dp</dimen>
+    <dimen name="score_a_margin_top">44dp</dimen>
+
+    <dimen name="score_b_margin_end">60dp</dimen>
+    <dimen name="score_b_margin_right">60dp</dimen>
+
+    <dimen name="goal_a_margin_start">52dp</dimen>
+    <dimen name="goal_a_margin_left">52dp</dimen>
+
+    <dimen name="goal_b_margin_end">52dp</dimen>
+    <dimen name="goal_b_margin_right">52dp</dimen>
+
+    <dimen name="gameover_margin_bottom">144dp</dimen>
+    <dimen name="goal_a_margin_top">28dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScoreMob</string>
+    <string name="goal_b">Goal B</string>
+    <string name="goal_a">Goal A</string>
+    <string name="game_over">Game Over !</string>
+    <string name="team_b">Team B</string>
+    <string name="team_a">Team A</string>
+    <string name="initial_score_a">0</string>
+    <string name="initial_score_b">0</string>
+</resources>
